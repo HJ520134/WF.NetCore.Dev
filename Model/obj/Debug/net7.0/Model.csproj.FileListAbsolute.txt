@@ -1,0 +1,12 @@
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\bin\Debug\net7.0\Model.deps.json
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\bin\Debug\net7.0\Model.dll
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\bin\Debug\net7.0\Model.pdb
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\Model.csproj.AssemblyReference.cache
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\Model.AssemblyInfoInputs.cache
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\Model.AssemblyInfo.cs
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\Model.csproj.CoreCompileInputs.cache
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\Model.dll
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\refint\Model.dll
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\Model.pdb
+e:\Code\GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\ref\Model.dll

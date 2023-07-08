@@ -1,0 +1,15 @@
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\bin\Debug\net7.0\TopicList.deps.json
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\bin\Debug\net7.0\TopicList.dll
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\bin\Debug\net7.0\TopicList.pdb
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\bin\Debug\net7.0\Model.dll
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\bin\Debug\net7.0\Model.pdb
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\obj\Debug\net7.0\TopicList.csproj.AssemblyReference.cache
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\obj\Debug\net7.0\TopicList.GeneratedMSBuildEditorConfig.editorconfig
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\obj\Debug\net7.0\TopicList.AssemblyInfoInputs.cache
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\obj\Debug\net7.0\TopicList.AssemblyInfo.cs
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\obj\Debug\net7.0\TopicList.csproj.CoreCompileInputs.cache
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\obj\Debug\net7.0\TopicList.csproj.CopyComplete
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\obj\Debug\net7.0\TopicList.dll
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\obj\Debug\net7.0\refint\TopicList.dll
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\obj\Debug\net7.0\TopicList.pdb
+e:\Code\GitHub\WF.NetCore.LeetCode\TopicList\obj\Debug\net7.0\ref\TopicList.dll

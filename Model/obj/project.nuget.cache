@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "QEygASzZXhwh2Arh11cqHYZ655g86yJN5q+J+zZRv6lE6beYh9+7Uq7vrC5tuAvUE7TXV9sIfxmqioficL3w8A==",
+  "success": true,
+  "projectFilePath": "e:\\Code\\GitHub\\WF.NetCore.LeetCode\\Model\\Model.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://devhistory.nuget.beisencorp.com/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://devthird.nuget.beisencorp.com/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.129.8.151/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
