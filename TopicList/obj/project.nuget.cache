@@ -1,27 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "CTjxSdbfTFEJ6Yrppk9C37ENRfEJj/NDmU3vZZZzzlVW0wEYGA9Gg8idKWzaCboRK9tGIql14C8dXu8mVneFTQ==",
+  "dgSpecHash": "xz7YAK2iS76+ilfjvSktwN99vbAUKA/DUNWk82mLBbRX2WWI8L/8XmRHJeHp8tYI2T68wZo0ST28+RHrQ6owLQ==",
   "success": true,
-  "projectFilePath": "e:\\Code\\GitHub\\WF.NetCore.LeetCode\\TopicList\\TopicList.csproj",
+  "projectFilePath": "D:\\Code\\WF.NetCore.LeetCode\\TopicList\\TopicList.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "NU1803",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://devhistory.nuget.beisencorp.com/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    },
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://devthird.nuget.beisencorp.com/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    },
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.129.8.151/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+      "message": "正在通过 “HTTP” 源“http://10.129.8.151/nuget”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
     }
   ]
 }

@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TopicList\TopicList.csproj" />
     <ProjectReference Include="..\Model\Model.csproj" />
+    <ProjectReference Include="..\TopicNormal\TopicNormal.csproj" />
   </ItemGroup>
 
 </Project>

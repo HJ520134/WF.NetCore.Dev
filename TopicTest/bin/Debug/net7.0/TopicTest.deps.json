@@ -14,6 +14,7 @@
           "NUnit.Analyzers": "3.5.0",
           "NUnit3TestAdapter": "4.3.0",
           "TopicList": "1.0.0",
+          "TopicNormal": "1.0.0",
           "coverlet.collector": "3.1.2"
         },
         "runtime": {
@@ -666,6 +667,14 @@
         "runtime": {
           "TopicList.dll": {}
         }
+      },
+      "TopicNormal/1.0.0": {
+        "dependencies": {
+          "Model": "1.0.0"
+        },
+        "runtime": {
+          "TopicNormal.dll": {}
+        }
       }
     }
   },
@@ -1010,6 +1019,11 @@
       "sha512": ""
     },
     "TopicList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TopicNormal/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

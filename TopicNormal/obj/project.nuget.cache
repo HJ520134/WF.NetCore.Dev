@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lhv5BJVnMvlnl0rJOqAc6WFW4mnMjONk16zGac9n/jTK/YSWWFHlaiImFfQVhr83kW9K8CJxvwjSscUxNAnX3A==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\WF.NetCore.LeetCode\\TopicNormal\\TopicNormal.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "正在通过 “HTTP” 源“http://10.129.8.151/nuget”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
+    }
+  ]
+}
