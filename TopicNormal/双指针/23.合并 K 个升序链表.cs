@@ -12,6 +12,7 @@ namespace TopicNormal.双指针
         public ListNode MergeKLists(ListNode[] lists)
         {
             PriorityQueue<ListNode> priorityQueue = new PriorityQueue<ListNode>();
+
         }
     }
 }
