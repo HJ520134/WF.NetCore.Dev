@@ -1,5 +1,5 @@
 
-using TopicNormal.动态规划.打家劫舍2;
+using WF.LeetCode.Category.双指针;
 
 namespace TopicTest;
 
@@ -15,15 +15,6 @@ public class Tests
     {
         Assert.Pass();
 
-    }
-
-    [Test]
-    public void Solution()
-    {
-        var solution = new Solution();
-
-        var nums = new int[] { 1, 2, 3, 1 };
-        solution.Rob(nums);
     }
 
 }

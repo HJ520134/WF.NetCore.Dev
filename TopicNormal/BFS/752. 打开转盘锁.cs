@@ -1,105 +1,104 @@
-using System.ComponentModel;
-
-namespace TopicNormal.BFS;
-
-public class 打开转盘锁
+namespace WF.LeetCode.Category.BFS
 {
-    public int OpenLock(string[] deadends, string target)
+    public class 打开转盘锁
     {
-        var quere = new Queue<string>();
-        var visite = new HashSet<string>();
-        var deads = new HashSet<string>();
-        foreach (var item in deadends)
+        public int OpenLock(string[] deadends, string target)
         {
-            if (!visite.Contains(item))
+            var quere = new Queue<string>();
+            var visite = new HashSet<string>();
+            var deads = new HashSet<string>();
+            foreach (var item in deadends)
             {
-                deads.Add(item);
+                if (!visite.Contains(item))
+                {
+                    deads.Add(item);
+                }
             }
-        }
 
-        quere.Enqueue("0000");
-        visite.Add("0000");
-        var maxCount = 0;
-        while (quere.Count > 0)
-        {
-            var n = quere.Count;
-            for (int i = 0; i < n; i++)
+            quere.Enqueue("0000");
+            visite.Add("0000");
+            var maxCount = 0;
+            while (quere.Count > 0)
             {
-                var curNum = (string)quere.Dequeue();
-
-                if (deads.Contains(curNum))
+                var n = quere.Count;
+                for (int i = 0; i < n; i++)
                 {
-                    continue;
-                }
+                    var curNum = (string)quere.Dequeue();
 
-                if (curNum.Equals(target))
-                {
-                    return maxCount;
-                }
-
-                for (int j = 0; j < 4; j++)
-                {
-                    var plusOneStr = PlusOne(curNum, j);
-                    if (!visite.Contains(plusOneStr))
+                    if (deads.Contains(curNum))
                     {
-                        quere.Enqueue(plusOneStr);
-                        visite.Add(plusOneStr);
+                        continue;
                     }
 
-                    var minsOneStr = MinsOne(curNum, j);
-                    if (!visite.Contains(minsOneStr))
+                    if (curNum.Equals(target))
                     {
-                        quere.Enqueue(minsOneStr);
-                        visite.Add(minsOneStr);
+                        return maxCount;
                     }
+
+                    for (int j = 0; j < 4; j++)
+                    {
+                        var plusOneStr = PlusOne(curNum, j);
+                        if (!visite.Contains(plusOneStr))
+                        {
+                            quere.Enqueue(plusOneStr);
+                            visite.Add(plusOneStr);
+                        }
+
+                        var minsOneStr = MinsOne(curNum, j);
+                        if (!visite.Contains(minsOneStr))
+                        {
+                            quere.Enqueue(minsOneStr);
+                            visite.Add(minsOneStr);
+                        }
+                    }
+
                 }
-
+                maxCount++;
             }
-            maxCount++;
+
+            return -1;
         }
 
-        return -1;
-    }
-
-    /// <summary>
-    /// 网上拨一下
-    /// </summary>
-    /// <param name="cur"></param>
-    /// <param name="j"></param>
-    /// <returns></returns>
-    public string PlusOne(string cur, int j)
-    {
-        var charNum = cur.ToCharArray();
-        if (charNum[j] == '9')
+        /// <summary>
+        /// 网上拨一下
+        /// </summary>
+        /// <param name="cur"></param>
+        /// <param name="j"></param>
+        /// <returns></returns>
+        public string PlusOne(string cur, int j)
         {
-            charNum[j] = '0';
-        }
-        else
-        {
-            charNum[j] = (char)(charNum[j] + 1);
+            var charNum = cur.ToCharArray();
+            if (charNum[j] == '9')
+            {
+                charNum[j] = '0';
+            }
+            else
+            {
+                charNum[j] = (char)(charNum[j] + 1);
+            }
+
+            return new string(charNum);
         }
 
-        return new string(charNum);
-    }
-
-    /// <summary>
-    /// 往下拨一下
-    /// </summary>
-    /// <param name="cur"></param>
-    /// <param name="j"></param>
-    /// <returns></returns>
-    public string MinsOne(string cur, int j)
-    {
-        var charNum = cur.ToCharArray();
-        if (charNum[j] == '0')
+        /// <summary>
+        /// 往下拨一下
+        /// </summary>
+        /// <param name="cur"></param>
+        /// <param name="j"></param>
+        /// <returns></returns>
+        public string MinsOne(string cur, int j)
         {
-            charNum[j] = '9';
-        }
-        else
-        {
-            charNum[j] = (char)(charNum[j] - 1);
-        }
+            var charNum = cur.ToCharArray();
+            if (charNum[j] == '0')
+            {
+                charNum[j] = '9';
+            }
+            else
+            {
+                charNum[j] = (char)(charNum[j] - 1);
+            }
 
-        return new string(charNum);
+            return new string(charNum);
+        }
     }
 }

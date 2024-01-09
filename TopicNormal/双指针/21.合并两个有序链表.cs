@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WenFanLeetCode.Mode;
+﻿using WF.LetCode.Common;
+using WF.LetCode.Common.Model;
 
-namespace TopicNormal.双指针
+namespace WF.LeetCode.Category.双指针
 {
     internal class _21
     {

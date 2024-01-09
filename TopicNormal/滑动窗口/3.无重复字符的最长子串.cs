@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TopicNormal.滑动窗口
+﻿namespace WF.LeetCode.Category.滑动窗口
 {
     internal class _3
     {

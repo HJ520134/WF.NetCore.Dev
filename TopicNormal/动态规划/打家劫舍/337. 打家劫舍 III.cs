@@ -1,7 +1,8 @@
-using WenFanLeetCode.Mode;
+using WF.LetCode.Common;
+using WF.LetCode.Common.Model;
 
-namespace TopicNormal.动态规划.打家劫舍;
-public class Solution
+namespace WF.LeetCode.Category.动态规划.打家劫舍;
+public class 打家劫舍3
 {
     Dictionary<TreeNode, int> memo = new Dictionary<TreeNode, int>();
     public int Rob(TreeNode root)

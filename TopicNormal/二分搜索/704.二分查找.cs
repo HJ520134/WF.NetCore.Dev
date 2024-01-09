@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TopicNormal.二分搜索
+﻿namespace WF.LeetCode.Category.二分搜索
 {
     internal class _704
     {

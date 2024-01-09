@@ -1,5 +1,7 @@
 
-public class Solution
+namespace WF.LeetCode.Category.动态规划.打家劫舍;
+
+public class 打家劫舍2
 {
     private int[] memo;
     public int Rob(int[] nums)

@@ -1,4 +1,4 @@
-namespace TopicNormal.双指针
+namespace WF.LeetCode.Category.双指针
 {
     public class SolutionThreeSum
     {

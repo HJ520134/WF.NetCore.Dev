@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TopicNormal.滑动窗口
+﻿namespace WF.LeetCode.Category.滑动窗口
 {
     public class _76
     {

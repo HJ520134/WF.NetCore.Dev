@@ -1,4 +1,5 @@
-using WenFanLeetCode.Mode;
+using WF.LetCode.Common;
+using WF.LetCode.Common.Model;
 
 namespace WenFanLeetCode.TopicList
 {
