@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xFq2Y7dUksYJT+MT82HhbvPFPttxz/C868XiLAqilBSSe1MAn1prP5dyaa1KQLqDrMwuqcZF7vq7xL3BhgCYtw==",
+  "dgSpecHash": "cJNfZvNq+njVeTBBZN0GGHv2dPdBDN04oL8z3z8G4awhJEy/cFiUDA+ygqQdNQzM4n+5TPQbDkZhXY7+rm74pQ==",
   "success": true,
-  "projectFilePath": "D:\\Code\\WF.NetCore.LeetCode\\Model\\Model.csproj",
+  "projectFilePath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\WF.LetCode.Common.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {

@@ -1,0 +1,12 @@
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\bin\Debug\net7.0\WF.TopicModel.deps.json
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\bin\Debug\net7.0\WF.TopicModel.dll
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\bin\Debug\net7.0\WF.TopicModel.pdb
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\WF.TopicModel.csproj.AssemblyReference.cache
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\WF.TopicModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\WF.TopicModel.AssemblyInfoInputs.cache
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\WF.TopicModel.AssemblyInfo.cs
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\WF.TopicModel.csproj.CoreCompileInputs.cache
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\WF.TopicModel.dll
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\refint\WF.TopicModel.dll
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\WF.TopicModel.pdb
+D:\Code\WF.GitHub\WF.NetCore.LeetCode\Model\obj\Debug\net7.0\ref\WF.TopicModel.dll

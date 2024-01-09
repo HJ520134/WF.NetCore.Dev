@@ -974,40 +974,40 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Model/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Model.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Model.dll": {}
-        }
-      },
-      "TopicList/1.0.0": {
+      "WF.LeetCode.Category/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Model": "1.0.0"
+          "WF.LetCode.Common": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TopicList.dll": {}
+          "bin/placeholder/WF.LeetCode.Category.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TopicList.dll": {}
+          "bin/placeholder/WF.LeetCode.Category.dll": {}
         }
       },
-      "TopicNormal/1.0.0": {
+      "WF.LeetCode.Company/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Model": "1.0.0"
+          "WF.LetCode.Common": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TopicNormal.dll": {}
+          "bin/placeholder/WF.LeetCode.Company.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TopicNormal.dll": {}
+          "bin/placeholder/WF.LeetCode.Company.dll": {}
+        }
+      },
+      "WF.LetCode.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/WF.LetCode.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WF.LetCode.Common.dll": {}
         }
       }
     }
@@ -3982,31 +3982,31 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Model/1.0.0": {
+    "WF.LeetCode.Category/1.0.0": {
       "type": "project",
-      "path": "../Model/Model.csproj",
-      "msbuildProject": "../Model/Model.csproj"
+      "path": "../TopicNormal/WF.LeetCode.Category.csproj",
+      "msbuildProject": "../TopicNormal/WF.LeetCode.Category.csproj"
     },
-    "TopicList/1.0.0": {
+    "WF.LeetCode.Company/1.0.0": {
       "type": "project",
-      "path": "../TopicList/TopicList.csproj",
-      "msbuildProject": "../TopicList/TopicList.csproj"
+      "path": "../TopicList/WF.LeetCode.Company.csproj",
+      "msbuildProject": "../TopicList/WF.LeetCode.Company.csproj"
     },
-    "TopicNormal/1.0.0": {
+    "WF.LetCode.Common/1.0.0": {
       "type": "project",
-      "path": "../TopicNormal/TopicNormal.csproj",
-      "msbuildProject": "../TopicNormal/TopicNormal.csproj"
+      "path": "../Model/WF.LetCode.Common.csproj",
+      "msbuildProject": "../Model/WF.LetCode.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.3.2",
-      "Model >= 1.0.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.5.0",
       "NUnit3TestAdapter >= 4.3.0",
-      "TopicList >= 1.0.0",
-      "TopicNormal >= 1.0.0",
+      "WF.LeetCode.Category >= 1.0.0",
+      "WF.LeetCode.Company >= 1.0.0",
+      "WF.LetCode.Common >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -4018,11 +4018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\WF.NetCore.LeetCode\\TopicTest\\TopicTest.csproj",
-      "projectName": "TopicTest",
-      "projectPath": "D:\\Code\\WF.NetCore.LeetCode\\TopicTest\\TopicTest.csproj",
+      "projectUniqueName": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\TopicTest\\WF.LeetCode.UTest.csproj",
+      "projectName": "WF.LeetCode.UTest",
+      "projectPath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\TopicTest\\WF.LeetCode.UTest.csproj",
       "packagesPath": "C:\\Users\\WenFa\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\WF.NetCore.LeetCode\\TopicTest\\obj\\",
+      "outputPath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\TopicTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4046,14 +4046,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Code\\WF.NetCore.LeetCode\\Model\\Model.csproj": {
-              "projectPath": "D:\\Code\\WF.NetCore.LeetCode\\Model\\Model.csproj"
+            "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\WF.LetCode.Common.csproj": {
+              "projectPath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\WF.LetCode.Common.csproj"
             },
-            "D:\\Code\\WF.NetCore.LeetCode\\TopicList\\TopicList.csproj": {
-              "projectPath": "D:\\Code\\WF.NetCore.LeetCode\\TopicList\\TopicList.csproj"
+            "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\TopicList\\WF.LeetCode.Company.csproj": {
+              "projectPath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\TopicList\\WF.LeetCode.Company.csproj"
             },
-            "D:\\Code\\WF.NetCore.LeetCode\\TopicNormal\\TopicNormal.csproj": {
-              "projectPath": "D:\\Code\\WF.NetCore.LeetCode\\TopicNormal\\TopicNormal.csproj"
+            "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\TopicNormal\\WF.LeetCode.Category.csproj": {
+              "projectPath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\TopicNormal\\WF.LeetCode.Category.csproj"
             }
           }
         }

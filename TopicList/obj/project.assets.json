@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Model/1.0.0": {
+      "WF.LetCode.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/Model.dll": {}
+          "bin/placeholder/WF.LetCode.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Model.dll": {}
+          "bin/placeholder/WF.LetCode.Common.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Model/1.0.0": {
+    "WF.LetCode.Common/1.0.0": {
       "type": "project",
-      "path": "../Model/Model.csproj",
-      "msbuildProject": "../Model/Model.csproj"
+      "path": "../Model/WF.LetCode.Common.csproj",
+      "msbuildProject": "../Model/WF.LetCode.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Model >= 1.0.0"
+      "WF.LetCode.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -34,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\WF.NetCore.LeetCode\\TopicList\\TopicList.csproj",
-      "projectName": "TopicList",
-      "projectPath": "D:\\Code\\WF.NetCore.LeetCode\\TopicList\\TopicList.csproj",
+      "projectUniqueName": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\TopicList\\WF.LeetCode.Company.csproj",
+      "projectName": "WF.LeetCode.Company",
+      "projectPath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\TopicList\\WF.LeetCode.Company.csproj",
       "packagesPath": "C:\\Users\\WenFa\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\WF.NetCore.LeetCode\\TopicList\\obj\\",
+      "outputPath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\TopicList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -62,8 +62,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Code\\WF.NetCore.LeetCode\\Model\\Model.csproj": {
-              "projectPath": "D:\\Code\\WF.NetCore.LeetCode\\Model\\Model.csproj"
+            "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\WF.LetCode.Common.csproj": {
+              "projectPath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\WF.LetCode.Common.csproj"
             }
           }
         }

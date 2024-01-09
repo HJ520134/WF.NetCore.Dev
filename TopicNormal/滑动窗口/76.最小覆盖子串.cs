@@ -72,8 +72,8 @@ namespace TopicNormal.滑动窗口
                     }
                 }
             }
-     
-        return len==int.MaxValue?"":s.Substring(start, len);
+
+            return len == int.MaxValue ? "" : s.Substring(start, len);
         }
 
     }

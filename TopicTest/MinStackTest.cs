@@ -8,85 +8,85 @@ using WenFanLeetCode.TopicList;
 
 namespace WenFanLeetCode.TopicTest
 {
-  public class MinStackTest
-  {
-    [SetUp]
-    public void Setup()
+    public class MinStackTest
     {
-    }
+        [SetUp]
+        public void Setup()
+        {
+        }
 
-    [Test]
-    public void Test1()
-    {
-      MinStack minStack = new MinStack();
-      minStack.push(-2);
-      minStack.push(0);
-      minStack.push(-3);
-      var min1 = minStack.GetMin(); // 返回 - 3.
-      minStack.Pop();
-      var top = minStack.Top(); //返回 0.
-      var min = minStack.GetMin();// 返回 - 2.
-    }
+        [Test]
+        public void Test1()
+        {
+            MinStack minStack = new MinStack();
+            minStack.push(-2);
+            minStack.push(0);
+            minStack.push(-3);
+            var min1 = minStack.GetMin(); // 返回 - 3.
+            minStack.Pop();
+            var top = minStack.Top(); //返回 0.
+            var min = minStack.GetMin();// 返回 - 2.
+        }
 
-    [Test]
-    public void Test2()
-    {
-      有效的括号 minStack = new 有效的括号();
-      var s = "([}}])";
-      minStack.IsValid(s);
-    }
-
-
-    [Test]
-    public void Test3()
-    {
-      最长回文子串 minStack = new 最长回文子串();
-      var str = "babad";
-      minStack.LongestPalindrome(str);
-    }
-
-    [Test]
-    public void DailyTemperatures()
-    {
-      var tsResult = new int[10];
-      tsResult[0] = 1;
-      每日温度 minStack = new 每日温度();
-      var arr = new int[] { 73, 74, 75, 71, 69, 72, 76, 73 };
-      minStack.DailyTemperatures(arr);
-    }
-
-    [Test]
-    public void adada()
-    {
-      TopicNormal.双指针.Solution solution1 = new TopicNormal.双指针.Solution();
-      var nums = new int[] { 2, 7, 11, 15 };
-      var res = solution1.TwoSum(nums, 9);
-    }
+        [Test]
+        public void Test2()
+        {
+            有效的括号 minStack = new 有效的括号();
+            var s = "([}}])";
+            minStack.IsValid(s);
+        }
 
 
-    [Test]
-    public void ThreeSum()
-    {
-      var solution1 = new TopicNormal.双指针.SolutionThreeSum();
-      var nums = new int[] { -1, 0, 1, 2, -1, -4 };
-      var res = solution1.ThreeSum(nums);
-    }
+        [Test]
+        public void Test3()
+        {
+            最长回文子串 minStack = new 最长回文子串();
+            var str = "babad";
+            minStack.LongestPalindrome(str);
+        }
+
+        [Test]
+        public void DailyTemperatures()
+        {
+            var tsResult = new int[10];
+            tsResult[0] = 1;
+            每日温度 minStack = new 每日温度();
+            var arr = new int[] { 73, 74, 75, 71, 69, 72, 76, 73 };
+            minStack.DailyTemperatures(arr);
+        }
+
+        [Test]
+        public void adada()
+        {
+            TopicNormal.双指针.Solution solution1 = new TopicNormal.双指针.Solution();
+            var nums = new int[] { 2, 7, 11, 15 };
+            var res = solution1.TwoSum(nums, 9);
+        }
 
 
-    [Test]
-    public void OpenLock()
-    {
-      var solution1 = new TopicNormal.BFS.打开转盘锁();
-      var nums = new string[] { "0000"};
-      var target = "8888";
-      var res = solution1.OpenLock(nums, target);
-    }
+        [Test]
+        public void ThreeSum()
+        {
+            var solution1 = new TopicNormal.双指针.SolutionThreeSum();
+            var nums = new int[] { -1, 0, 1, 2, -1, -4 };
+            var res = solution1.ThreeSum(nums);
+        }
+
+
+        [Test]
+        public void OpenLock()
+        {
+            var solution1 = new TopicNormal.BFS.打开转盘锁();
+            var nums = new string[] { "0000" };
+            var target = "8888";
+            var res = solution1.OpenLock(nums, target);
+        }
 
         [Test]
         public void SearchRange()
         {
             var solution1 = new TopicNormal.二分搜索._34();
-            var nums = new int[] {};
+            var nums = new int[] { };
             var target = 0;
             var res = solution1.SearchRange1(nums, target);
         }
@@ -95,7 +95,7 @@ namespace WenFanLeetCode.TopicTest
         {
             int[] need = new int[128];
 
-           var resa= need['q']++;
+            var resa = need['q']++;
 
 
             var solution1 = new TopicNormal.滑动窗口._76();
@@ -104,6 +104,5 @@ namespace WenFanLeetCode.TopicTest
             var res = solution1.MinWindow(s, t);
         }
 
-        
     }
 }

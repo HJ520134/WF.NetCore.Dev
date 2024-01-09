@@ -52,7 +52,7 @@ namespace TopicNormal.滑动窗口
                 //缩小窗口
                 while ((right - left) >= s1.Length)
                 {
-                    if (vaild ==needDic.Count())
+                    if (vaild == needDic.Count())
                     {
                         return true;
                     }

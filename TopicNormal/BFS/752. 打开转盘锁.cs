@@ -8,7 +8,7 @@ public class 打开转盘锁
     {
         var quere = new Queue<string>();
         var visite = new HashSet<string>();
-       var deads=new HashSet<string>();
+        var deads = new HashSet<string>();
         foreach (var item in deadends)
         {
             if (!visite.Contains(item))
@@ -26,7 +26,7 @@ public class 打开转盘锁
             for (int i = 0; i < n; i++)
             {
                 var curNum = (string)quere.Dequeue();
-              
+
                 if (deads.Contains(curNum))
                 {
                     continue;

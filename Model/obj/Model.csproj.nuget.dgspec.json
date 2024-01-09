@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\WF.NetCore.LeetCode\\Model\\Model.csproj": {}
+    "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\Model.csproj": {}
   },
   "projects": {
-    "D:\\Code\\WF.NetCore.LeetCode\\Model\\Model.csproj": {
+    "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\WF.NetCore.LeetCode\\Model\\Model.csproj",
+        "projectUniqueName": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Code\\WF.NetCore.LeetCode\\Model\\Model.csproj",
+        "projectPath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\WenFa\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\WF.NetCore.LeetCode\\Model\\obj\\",
+        "outputPath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

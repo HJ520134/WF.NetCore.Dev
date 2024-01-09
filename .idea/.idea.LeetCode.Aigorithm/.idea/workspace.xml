@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e92ae807-e793-44dc-9c8c-5fd051d5f409" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/LeetCode.Aigorithm.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.Aigorithm.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Model.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net7.0/Model.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net7.0/Model.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/net7.0/Model.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/net7.0/Model.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicList/TopicList.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicList/obj/Debug/net7.0/TopicList.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicList/obj/Debug/net7.0/TopicList.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicList/obj/Debug/net7.0/TopicList.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/TopicList/obj/Debug/net7.0/TopicList.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicList/obj/Debug/net7.0/TopicList.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TopicList/obj/Debug/net7.0/TopicList.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicList/obj/Debug/net7.0/TopicList.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TopicList/obj/Debug/net7.0/TopicList.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicList/obj/TopicList.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TopicList/obj/TopicList.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicList/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TopicList/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicList/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TopicList/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/BFS/752. 打开转盘锁.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/BFS/752. 打开转盘锁.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/TopicNormal.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/obj/Debug/net7.0/TopicNormal.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/obj/Debug/net7.0/TopicNormal.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/obj/Debug/net7.0/TopicNormal.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/obj/Debug/net7.0/TopicNormal.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/obj/Debug/net7.0/TopicNormal.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/obj/Debug/net7.0/TopicNormal.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/obj/TopicNormal.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/obj/TopicNormal.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/二分搜索/53.在排序数组中查找数字.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/二分搜索/53.在排序数组中查找数字.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/动态规划/打家劫舍/213. 打家劫舍II.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/动态规划/打家劫舍/213. 打家劫舍II.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/动态规划/打家劫舍/337. 打家劫舍 III.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/动态规划/打家劫舍/337. 打家劫舍 III.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/双指针/1. 两数之和.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/双指针/1. 两数之和.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/双指针/15. 三数之和.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/双指针/15. 三数之和.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/滑动窗口/567. 字符串的排列.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/滑动窗口/567. 字符串的排列.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicNormal/滑动窗口/76.最小覆盖子串.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicNormal/滑动窗口/76.最小覆盖子串.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicTest/MinStackTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicTest/MinStackTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicTest/TopicTest.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicTest/bin/Debug/net7.0/CoverletSourceRootsMapping" beforeDir="false" afterPath="$PROJECT_DIR$/TopicTest/bin/Debug/net7.0/CoverletSourceRootsMapping" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicTest/obj/Debug/net7.0/TopicTest.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TopicTest/obj/Debug/net7.0/TopicTest.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicTest/obj/Debug/net7.0/TopicTest.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/TopicTest/obj/Debug/net7.0/TopicTest.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicTest/obj/Debug/net7.0/TopicTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TopicTest/obj/Debug/net7.0/TopicTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicTest/obj/Debug/net7.0/TopicTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TopicTest/obj/Debug/net7.0/TopicTest.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicTest/obj/TopicTest.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TopicTest/obj/TopicTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicTest/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TopicTest/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicTest/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TopicTest/obj/project.nuget.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2aii8yKMLgygW2Ga3U1dYiPjuOg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\WenFa\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\WenFa\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\WenFa\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e92ae807-e793-44dc-9c8c-5fd051d5f409" name="Changes" comment="" />
+      <created>1704807646021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704807646021</updated>
+      <workItem from="1704807652058" duration="18000" />
+      <workItem from="1704808418745" duration="67000" />
+      <workItem from="1704808671247" duration="344000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

@@ -18,9 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TopicList\TopicList.csproj" />
-    <ProjectReference Include="..\Model\Model.csproj" />
-    <ProjectReference Include="..\TopicNormal\TopicNormal.csproj" />
+    <ProjectReference Include="..\TopicList\WF.TopicList.csproj" />
+    <ProjectReference Include="..\Model\WF.TopicModel.csproj" />
+    <ProjectReference Include="..\TopicNormal\WF.TopicNormal.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "BYyhghNiYLG2ZdvCbLsoN1OyYFENm1OUrFgVPZnwBldu86N6W65F7uMPGyymb1PHzlko84eRZ61fuIB8uJqjsA==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\WF.DesignPattern.Commom\\WF.DesignPattern.Commom.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "正在通过 “HTTP” 源“http://10.129.8.151/nuget”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
+    }
+  ]
+}

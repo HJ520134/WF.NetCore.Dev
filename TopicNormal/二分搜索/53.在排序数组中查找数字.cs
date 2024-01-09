@@ -12,10 +12,11 @@ namespace TopicNormal.二分搜索
         {
             var leftIndex = left_bound(nums, target);
             var rightIndex = right_bound(nums, target);
-            if (rightIndex==-1||leftIndex==-1) {
+            if (rightIndex == -1 || leftIndex == -1)
+            {
                 return 0;
             }
-            return (rightIndex - leftIndex)+1;
+            return (rightIndex - leftIndex) + 1;
         }
 
         public int left_bound(int[] nums, int target)
