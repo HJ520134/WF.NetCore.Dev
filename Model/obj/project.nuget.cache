@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EwaEGfp/h+ijylPTtPHyQwKUjPhHPJ3egr9qHWm781Mn9Wl0Hb8+QoLzUT+vKaYnfd+uMirMBC3/b8wtaBldbg==",
+  "dgSpecHash": "cJNfZvNq+njVeTBBZN0GGHv2dPdBDN04oL8z3z8G4awhJEy/cFiUDA+ygqQdNQzM4n+5TPQbDkZhXY7+rm74pQ==",
   "success": true,
   "projectFilePath": "D:\\Code\\WF.GitHub\\WF.NetCore.LeetCode\\Model\\WF.LetCode.Common.csproj",
   "expectedPackageFiles": [],
@@ -9,7 +9,7 @@
       "code": "NU1803",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.129.8.151/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+      "message": "正在通过 “HTTP” 源“http://10.129.8.151/nuget”运行“restore”操作。将来的版本中将删除非 HTTPS 访问权限。请考虑迁移到 “HTTPS” 源。"
     }
   ]
 }
