@@ -3,13 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WF.TopicTest", "TopicTest\WF.TopicTest.csproj", "{8B1C310A-D564-4D19-80F1-37120F4CCD4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WF.LeetCode.UTest", "TopicTest\WF.LeetCode.UTest.csproj", "{8B1C310A-D564-4D19-80F1-37120F4CCD4C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WF.TopicList", "TopicList\WF.TopicList.csproj", "{5244C41B-5E45-427E-8FA8-6397C19F36F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WF.LeetCode.Company", "TopicList\WF.LeetCode.Company.csproj", "{5244C41B-5E45-427E-8FA8-6397C19F36F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WF.TopicModel", "Model\WF.TopicModel.csproj", "{BD2204AF-608A-4E22-B161-2373BB46AF3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WF.LetCode.Common", "Model\WF.LetCode.Common.csproj", "{BD2204AF-608A-4E22-B161-2373BB46AF3B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WF.TopicNormal", "TopicNormal\WF.TopicNormal.csproj", "{F14C979B-E818-48A8-A012-CFE8ACF0D80B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WF.LeetCode.Category", "TopicNormal\WF.LeetCode.Category.csproj", "{F14C979B-E818-48A8-A012-CFE8ACF0D80B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WF.LeetCode", "WF.LeetCode", "{9A1154FC-1DAE-47F9-9C13-C0F493DE0A32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WF.DesignPattern", "WF.DesignPattern", "{2A1ECBE3-D464-4E22-AE92-E04E05EE4DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF.DesignPattern.Commom", "WF.DesignPattern.Commom\WF.DesignPattern.Commom.csproj", "{FC844F4D-F954-4FC3-B12E-9019E09A0E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF.DesignPattern.Category", "WF.DesignPattern.Category\WF.DesignPattern.Category.csproj", "{A15CE2B4-1A50-4342-BAF2-CB1C49DD9F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF.DesignPattern.UTest", "WF.DesignPattern.UTest\WF.DesignPattern.UTest.csproj", "{966D53B4-9A7D-4F8E-A1D4-1A3BE366F19C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WF.MainTools", "WF.MainTools", "{D302FDA1-EED0-45EC-BBCB-8F591328DFC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DateTimeExt", "DateTimeExt", "{EF9D09FD-412A-48BF-9A46-1215537B95DD}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Masuit.Tools\Masuit.Tools.Abstractions\DateTimeExt\DateTimeHelper.cs = ..\..\Masuit.Tools\Masuit.Tools.Abstractions\DateTimeExt\DateTimeHelper.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +50,33 @@ Global
 		{F14C979B-E818-48A8-A012-CFE8ACF0D80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F14C979B-E818-48A8-A012-CFE8ACF0D80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F14C979B-E818-48A8-A012-CFE8ACF0D80B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC844F4D-F954-4FC3-B12E-9019E09A0E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC844F4D-F954-4FC3-B12E-9019E09A0E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC844F4D-F954-4FC3-B12E-9019E09A0E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC844F4D-F954-4FC3-B12E-9019E09A0E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15CE2B4-1A50-4342-BAF2-CB1C49DD9F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15CE2B4-1A50-4342-BAF2-CB1C49DD9F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15CE2B4-1A50-4342-BAF2-CB1C49DD9F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15CE2B4-1A50-4342-BAF2-CB1C49DD9F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966D53B4-9A7D-4F8E-A1D4-1A3BE366F19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966D53B4-9A7D-4F8E-A1D4-1A3BE366F19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966D53B4-9A7D-4F8E-A1D4-1A3BE366F19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966D53B4-9A7D-4F8E-A1D4-1A3BE366F19C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B1C310A-D564-4D19-80F1-37120F4CCD4C} = {9A1154FC-1DAE-47F9-9C13-C0F493DE0A32}
+		{5244C41B-5E45-427E-8FA8-6397C19F36F2} = {9A1154FC-1DAE-47F9-9C13-C0F493DE0A32}
+		{BD2204AF-608A-4E22-B161-2373BB46AF3B} = {9A1154FC-1DAE-47F9-9C13-C0F493DE0A32}
+		{F14C979B-E818-48A8-A012-CFE8ACF0D80B} = {9A1154FC-1DAE-47F9-9C13-C0F493DE0A32}
+		{FC844F4D-F954-4FC3-B12E-9019E09A0E0E} = {2A1ECBE3-D464-4E22-AE92-E04E05EE4DC8}
+		{A15CE2B4-1A50-4342-BAF2-CB1C49DD9F26} = {2A1ECBE3-D464-4E22-AE92-E04E05EE4DC8}
+		{966D53B4-9A7D-4F8E-A1D4-1A3BE366F19C} = {2A1ECBE3-D464-4E22-AE92-E04E05EE4DC8}
+		{EF9D09FD-412A-48BF-9A46-1215537B95DD} = {D302FDA1-EED0-45EC-BBCB-8F591328DFC4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84AF3F84-DA54-4022-B7E0-70EAAE71F3B8}
 	EndGlobalSection
 EndGlobal
