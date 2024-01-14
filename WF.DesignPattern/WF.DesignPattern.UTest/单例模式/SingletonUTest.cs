@@ -27,10 +27,8 @@ public class SingletonUTest
     {
         var firstSingleton = SingletonLazy.Instance;
         var firstSingletonStr= firstSingleton.LogMessage("firstSingleton");
-
         var secondSingleton = SingletonLazy.Instance;
         var secondSingletonStr = secondSingleton.LogMessage("secondSingleton");
-
         Console.ReadLine();
     }
 
