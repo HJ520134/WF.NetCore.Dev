@@ -2,7 +2,7 @@
 
 namespace WF.DesignPattern.UTest.单例模式;
 
-public class SingletonUTest
+public class SimpleFactoryUTest
 {
     [SetUp]
     public void Setup()
