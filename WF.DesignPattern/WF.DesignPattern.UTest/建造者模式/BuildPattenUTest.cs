@@ -12,14 +12,14 @@ public class BuildPattenUTest
     [Test]
     public void BuilderTest()
     {
-        var direact = new Director();
+        var direct = new Director();
         var builderOne = new BuilderOne();
         var builderTwo = new BuilderTwo();
-        direact.Constract(builderOne);
+        direct.Constract(builderOne);
         var computerA = builderOne.GetComputer();
         computerA.Show();
 
-        direact.Constract(builderTwo);
+        direct.Constract(builderTwo);
         var computerB = builderOne.GetComputer();
         computerB.Show();
     }
