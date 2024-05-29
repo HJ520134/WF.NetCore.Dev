@@ -264,3 +264,4 @@ __pycache__/
 /src/JuCheap.WebApi/.config
 /src/JuCheap.WebApi/logs/
 /src/JuCheap.WebApi/wwwroot/uploads
+/MateAtrribute.cs
