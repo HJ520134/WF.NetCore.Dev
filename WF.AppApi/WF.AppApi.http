@@ -1,0 +1,6 @@
+@WF.AppApi_HostAddress = http://localhost:5113
+
+GET {{WF.AppApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
