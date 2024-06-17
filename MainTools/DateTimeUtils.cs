@@ -1,16 +1,5 @@
-﻿/*********************************************************
-* 版权所有： Beisen  
-* 创建人：王波 wangbo1@beisen.com
-* 创建时间：2021/2/25 11:45:26
-*******************************************************/
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Beisen.CustomDevelopTwo.Utils.Utils
+﻿
+namespace MainTools.CustomDevelopTwo.Utils.Utils
 {
     /// <summary>
     /// 时间工具类
@@ -92,14 +81,5 @@ namespace Beisen.CustomDevelopTwo.Utils.Utils
             return dt_1970 + span;
         }
 
-        /// <summary>
-        /// 将时间转换成北森识别的字符串
-        /// </summary>
-        /// <param name="dt"></param>
-        /// <returns></returns>
-        public static string ToBeiSenString(this DateTime dt)
-        {
-            return dt.ToString("yyyy-MM-ddTHH:mm:ss");
-        }
     }
 }
