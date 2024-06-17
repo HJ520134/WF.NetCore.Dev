@@ -1,5 +1,5 @@
 ﻿
-namespace MainTools.CustomDevelopTwo.Utils.Utils
+namespace MainTools
 {
     /// <summary>
     /// 时间工具类
